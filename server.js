@@ -75,6 +75,6 @@ const handleRequest = function (request, response) {
 
 const server = http.createServer(handleRequest)
 
-server.listen(PORT, function () {
+app.listen(PORT, function () {
   console.log('the server is listening on port: ' + PORT)
 });
